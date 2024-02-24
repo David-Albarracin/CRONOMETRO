@@ -80,6 +80,8 @@ const stopM = () => {
     secondsT = 0;
     minutesT = 0;
     hoursT = 0;
+    btnIconPlay.classList.remove("bx-stop");
+    btnIconPlay.classList.add("bx-play");
     displayTime();
 }
 
