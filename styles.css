@@ -33,7 +33,6 @@ body{
 
 #numeros{
     display: flex;
-    font-size: 5rem;
 }
 
 .buttons{
@@ -43,4 +42,9 @@ body{
 
 button{
     padding: 4px 10px;
+    font-size: 1.5rem;
+}
+
+span{
+    font-size: 3rem;
 }
